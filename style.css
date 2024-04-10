@@ -1,0 +1,79 @@
+.container-feedbacks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.feedback{
+    width: 250px;
+    border: 1px solid rgba(128, 128, 128, 0.163);
+    border-radius: 15px;  
+    margin: 7px;
+    padding: 10px;  
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.quote{
+    display: inline-block;
+    width: 35px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+
+.feedback-text{
+    padding: 0 16px;
+    flex-grow: 1;
+}
+
+
+.quote.green{
+    background-color: green;
+}
+
+
+.quote.pink{
+    background-color: pink;
+}
+
+
+.feedback-author{
+    font-size: 15px;
+    text-align: right;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+
+.feedback-author.green{
+    color: green;
+}
+
+
+.feedback-author.pink{
+    color: pink;
+}
+
+
+
+.feedback-author-company{
+ font-size: 20px;
+ text-align: right;
+ margin-top: 0;
+ font-family: sans-serif;
+  
+}
+
+
+.feedback-author-prof{
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 0;
+    font-family: sans-serif;
+}
